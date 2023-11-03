@@ -21,20 +21,20 @@ You will need to reference the GitHub Project Management guide in the course por
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+This unit, setting up the project and beginning the issues went relatively well. Planning out and implementing our issues was also pretty smooth.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+There were some initial challenges during the planning process, especially because we had so many ideas and needed to take the time to organize all of our thoughts.
 
 ### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We did not finish all of the tasks that we had opened up on GitHub. We will prioritize our tasks based on how essential the task is to the functionality of our site. As such, we will first prioritize the course reviews, then the comment section, then professor filtering.
 
 ### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
-[👉🏾👉🏾👉🏾 your answer here]
+None of our features are "at risk" because all of our planned tasks so far are essential to the core functionality of the app, so we do not foresee ourselves removing them any time soon.
 
 ### 5. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We will not be needing any additional support in the upcoming units.

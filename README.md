@@ -52,4 +52,6 @@ Users will be able to have the ability to filter out specific comments for a spe
 
 ## Installation Instructions
 
-[instructions go here]
+1. Pull the code from the repository
+2. Install the needed packages
+3. Run "npm run dev" to launch the app locally
