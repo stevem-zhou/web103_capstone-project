@@ -24,9 +24,15 @@ Backend: Node, Express, APIs tbd
 
 ## Features
 
-### [Course Ratings/Reviews]
+### [Course Ratings] ✅
 
-Users will be able to leave a review on a specific course for everyone else to see, while also leaving a rating for this class.
+Users will be able to leave a rating for this class.
+
+<img src="https://imgur.com/XUwW2N8.gif"/>
+
+### [Course Reviews]
+
+Users will be able to leave a review on a specific course for everyone else to see.
 
 [gif goes here]
 
