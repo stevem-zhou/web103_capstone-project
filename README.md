@@ -28,7 +28,7 @@ Backend: Node, Express, APIs tbd
 
 Users will be able to leave a rating for this class.
 
-<img src="https://imgur.com/XUwW2N8"/>
+<img src="https://imgur.com/XUwW2N8.gif"/>
 
 ### [Course Reviews]
 
