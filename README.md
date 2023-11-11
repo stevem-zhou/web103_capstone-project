@@ -24,6 +24,11 @@ Backend: Node, Express, APIs tbd
 
 ## Features
 
+### [Login] ✅
+
+Users can login and navigate to the home page.
+<img src="https://i.imgur.com/VO37cD3.gif"/>
+
 ### [Course Ratings] ✅
 
 Users will be able to leave a rating for this class.
