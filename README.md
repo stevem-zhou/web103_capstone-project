@@ -30,6 +30,12 @@ Users will be able to leave a rating for this class.
 
 <img src="https://imgur.com/XUwW2N8.gif"/>
 
+### [Navigation Bar] ✅
+
+Users will be able to search up a specific course. 
+
+<img src="./app/client/src/assets/web103-capstone-navbar.gif"/>
+
 ### [Course Reviews]
 
 Users will be able to leave a review on a specific course for everyone else to see.
@@ -41,6 +47,7 @@ Users will be able to leave a review on a specific course for everyone else to s
 Users will be able to chat amongst themselves about the course in a comment section rather than leaving it as a review. This will allow these users to have a through discussion about the class and what were the pros and cons of the course.
 
 [gif goes here]
+
 
 ### [Professor Filtering]
 
