@@ -41,24 +41,18 @@ Users will be able to search up a specific course.
 
 <img src="./app/client/src/assets/web103-capstone-navbar.gif"/>
 
+### [Home Page] ✅
+
+Home page will show all the available courses that students can get reviews on.
+
+<img src="https://i.imgur.com/Zt6btcR.gif"/>
+
 ### [Course Reviews]
 
 Users will be able to leave a review on a specific course for everyone else to see.
 
 [gif goes here]
 
-### [Course Comment Section]
-
-Users will be able to chat amongst themselves about the course in a comment section rather than leaving it as a review. This will allow these users to have a through discussion about the class and what were the pros and cons of the course.
-
-[gif goes here]
-
-
-### [Professor Filtering]
-
-Users will be able to have the ability to filter out specific comments for a specific professor rather than have a condensed centralized section of reviews that takes in all the professors into account.
-
-[gif goes here]
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
 
