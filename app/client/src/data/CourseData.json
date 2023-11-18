@@ -1,0 +1,13 @@
+{
+  "courses": [
+    { "id": 0, "name": "MATH 3A", "rating": 4.5 },
+    { "id": 1, "name": "WRITING 3B", "rating": 3.2 },
+    { "id": 2, "name": "CS 161", "rating": 1.5 },
+    { "id": 3, "name": "ICS 31", "rating": 3.5 },
+    { "id": 4, "name": "ARTS 6A", "rating": 4.2 },
+    { "id": 5, "name": "MATH 2B", "rating": 4.9 },
+    { "id": 6, "name": "ICS 32", "rating": 2.5 },
+    { "id": 7, "name": "ARTS 4A", "rating": 0.5 },
+    { "id": 8, "name": "MATH 2F", "rating": 1.3 }
+  ]
+}
