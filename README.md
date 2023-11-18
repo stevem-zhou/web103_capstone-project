@@ -47,11 +47,11 @@ Home page will show all the available courses that students can get reviews on.
 
 <img src="https://i.imgur.com/Zt6btcR.gif"/>
 
-### [Course Reviews]
+### [Course Reviews] ✅
 
 Users will be able to leave a review on a specific course for everyone else to see.
 
-[gif goes here]
+<img src="https://i.imgur.com/b2AIQBx.gif"/>
 
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]

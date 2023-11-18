@@ -39,36 +39,40 @@ export default function CoursePage() {
   console.log(courseInfo);
 
   return (
-    <>
+    <Flex flexDir={"column"} backgroundColor={"#5386ad"}>
       <Navbar />
-      <Button colorScheme="blue" onClick={onOpen}>
-        Add review
-      </Button>
       <Flex flexDir={"column"} justify={"center"} align={"center"}>
-        <Text>This page is {courseInfo.name}</Text>
-        <Flex align={"center"} justify={"center"}>
+        <Text color={"white"} as="b">This page is {courseInfo.name}</Text>
+        {/* <Flex align={"center"} justify={"center"}>
           {[...Array(5)].map((_, index) => (
             <Icon
-              key={index}
-              as={FaStar}
-              color={index < rating ? "yellow.500" : "gray.300"}
-              onClick={() => handleClick(index)}
-              cursor="pointer"
+            key={index}
+            as={FaStar}
+            color={index < rating ? "yellow.500" : "gray.300"}
+            onClick={() => handleClick(index)}
+            cursor="pointer"
             />
-          ))}
-        </Flex>
-        {reviewDataArr.map((r) => (
-          <Review
-            id={r.id}
-            reviewer={r.reviewer}
-            review={r.review}
-            date={r.date}
-            courseName={r.course_name}
-          />
-        ))}
+            ))}
+          </Flex> */}
+          <Button colorScheme="blue" onClick={onOpen}>
+            Add review
+          </Button>
+        {reviewDataArr.map((r) => {
+          if (r.course_name.toLowerCase() == courseInfo.name.toLowerCase()) {
+            return (
+              <Review
+                id={r.id}
+                reviewer={r.reviewer}
+                review={r.review}
+                date={r.date}
+                courseName={r.course_name}
+              />
+            );
+          }
+        })}
       </Flex>
 
       <ReviewForm isOpen={isOpen} onClose={onClose} />
-    </>
+    </Flex>
   );
 }

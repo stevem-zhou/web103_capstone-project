@@ -7,8 +7,9 @@ import { useNavigate } from "react-router-dom";
 export default function Navbar() {
   const [courseList, setCourseList] = useState([]);
   const [searchedCourseOptions, setSearchedCourseOptions] = useState([]);
+  const [selectOption, setSelectOption] = useState([]);
   const [inputCourse, setInputCourse] = useState("");
-  let isSearchablle = false;
+  const [isSearchable, setIsSearchable] = useState(false);
 
   const navigate = useNavigate();
 
@@ -28,14 +29,19 @@ export default function Navbar() {
         </option>
       ))
     );
-    console.log(searchedCourseOptions);
+    // console.log(searchedCourseOptions);
 
-    
-    // navigate(`/course/${courseList.id}`);
+    if (isSearchable) {
+      navigate(`/course/${selectOption}`);
+    } else {
+      setIsSearchable(true);
+    }
   }
 
-  function handleReset(){
+  function handleReset() {
     setSearchedCourseOptions([]);
+    setIsSearchable(false);
+    setSelectOption([]);
   }
 
   return (
@@ -46,7 +52,14 @@ export default function Navbar() {
       justify={"center"}
       align={"center"}
     >
-      <Flex w={"30%"}>
+      <Flex w={"30%"} gap="1em">
+        <Button
+          colorScheme={"twitter"}
+          onClick={() => navigate("/home")}
+        >
+          HOME
+        </Button>
+
         {searchedCourseOptions.length == 0 ? (
           <Input
             placeholder="Search for course..."
@@ -55,14 +68,27 @@ export default function Navbar() {
             onSubmit={() => console.log(inputCourse)}
           />
         ) : (
-          <Select placeholder="Select option" background={"white"}>
+          <Select
+            placeholder="Select option"
+            background={"white"}
+            onChange={(e) => setSelectOption(e.target.value)}
+          >
             {searchedCourseOptions}
           </Select>
         )}
-        <Button onClick={handleSearch}>Search!</Button>
+
+        <Button
+          colorScheme={searchedCourseOptions.length > 0 ? "green" : "yellow"}
+          onClick={handleSearch}
+          isDisabled = {selectOption.length == 0 && searchedCourseOptions.length > 0 ? true : false}
+        >
+          Search!
+        </Button>
 
         {searchedCourseOptions.length != 0 ? (
-          <Button onClick={handleReset}>Reset</Button>
+          <Button colorScheme="red" onClick={handleReset}>
+            Reset
+          </Button>
         ) : null}
       </Flex>
 
